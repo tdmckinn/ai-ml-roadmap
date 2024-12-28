@@ -28,7 +28,7 @@ At work, this translates directly into how I process information. When faced wit
 
 When I look at basic machine learning types, they remind me of different ways people learn:
 
-![Learning Style Parallels](/diagrams/learning_styles.svg)
+![Learning Style Parallels](..//diagrams/learning_styles.svg)
 
 - **Supervised learning**: Like starting with labeled data—someone guiding you step by step. Whether it's earning a college degree or working through Jon Calhoun's Go course for me, the pattern is the same: structured guidance, clear feedback loops, and a path laid out before you. Both gave me solid foundations, just through different lenses—academic theory versus practical application.
 
@@ -38,7 +38,7 @@ When I look at basic machine learning types, they remind me of different ways pe
 
 One thing I've realized—you need enough baseline knowledge to even get started. I call this the bootstrap problem. As a software engineer, I can look at ML code, and even if I don't know Python well, I get the structure enough to know what questions to ask. That baseline opens the door to deeper learning or at least a headstart.
 
-![Bootstrap Effect](/diagrams/bootstrap-learning.svg)
+![Bootstrap Effect](../diagrams/bootstrap_learning.svg)
 
 This isn't just a theory—I've seen it in action. Recently, I looked at some ML code for a plant compatibility analyzer. Even though I didn't know Python well, my software background helped me recognize patterns and ask questions like, "How do we test ML outputs?" and "How do we handle variability in the results?" These aren't random questions—they're shaped by experience.
 
