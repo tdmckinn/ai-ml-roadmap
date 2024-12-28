@@ -1,9 +1,14 @@
 ---
-title: 'Man vs Machine Learning'
-date: '2024-12-28'
-author: 'Tirell Mckinnon'
-description: 'Early reflections on machine learning from a software engineer's perspective'
-tags: ['machine-learning', 'software-development', 'learning']
+title: "Man vs Machine Learning"
+date: "2024-12-28"
+author: "Tirell Mckinnon"
+description: "Early reflections on machine learning from my own observations"
+tags:
+  - machine-learning
+  - software-development
+  - learning
+  - code
+  - ai
 ---
 
 # Man vs Machine Learning
@@ -24,19 +29,19 @@ That made me reflect on learning in this context. If models are becoming more al
 
 This got me thinking about learning in an AI world. As a software engineer stepping into AI/ML, I've noticed connections between how machines learn and how I learn. I'm a visual and hands-on learner—diagrams help me understand systems, and real practice is what makes things click.
 
-At work, this translates directly into how I process information. When faced with complex systems or intricate processes, my instinct is to open Miro or FigJam and start mapping. I'll take what someone's explaining verbally—a system they've already built or a process they've developed, thinking about—and translate it into a visual flow. People sometimes try to give me credit for clarifying things, but I always tell them the truth: I'm not creating new knowledge, I'm just translating their expertise into a visual language that makes sense to people like me. It's about bridging the gap between different ways of understanding.
+At work, this translates directly into how I process information. When faced with complex systems or intricate processes, my instinct is to open Miro or FigJam and start mapping. I'll take what someone's explaining verbally—a system they've already built or a process they're developing—and translate it into a visual flow. People sometimes try to give me credit for clarifying things, but I always tell them the truth: I'm not creating new knowledge; I'm just translating their expertise into a visual language that makes sense to people like me. It's about bridging the gap between different ways of understanding.
 
 When I look at basic machine learning types, they remind me of different ways people learn:
 
-![Learning Style Parallels](..//diagrams/learning_styles.svg)
+![Learning Style Parallels](../diagrams/learning_styles.svg)
 
-- **Supervised learning**: Like starting with labeled data—someone guiding you step by step. Whether it's earning a college degree or working through Jon Calhoun's Go course for me, the pattern is the same: structured guidance, clear feedback loops, and a path laid out before you. Both gave me solid foundations, just through different lenses—academic theory versus practical application.
+- **Supervised learning**: Like starting with labeled data—someone guiding you step by step. Whether it's earning a college degree or working through Jon Calhoun's Go course, the pattern is the same: structured guidance, clear feedback loops, and a path laid out before you. Both gave me solid foundations, just through different lenses—academic theory versus practical application.
 
 - **Unsupervised learning**: This is more like being handed the docs and figuring things out for yourself—unlabeled data for machines. It hits home when I dive into a new codebase. Nobody's pointing out patterns, so I'm connecting the dots myself. Those "aha!" moments come when I actually run the app, log outputs, or break the code so I can debug it.
 
 ## The Bootstrap Problem
 
-One thing I've realized—you need enough baseline knowledge to even get started. I call this the bootstrap problem. As a software engineer, I can look at ML code, and even if I don't know Python well, I get the structure enough to know what questions to ask. That baseline opens the door to deeper learning or at least a headstart.
+One thing I've realized—you need enough baseline knowledge to even get started. I call this the bootstrap problem. As a software engineer, I can look at ML code, and even if I don't know Python well, I get the structure enough to know what questions to ask. That baseline opens the door to deeper learning—or at least gives you a head start.
 
 ![Bootstrap Effect](../diagrams/bootstrap_learning.svg)
 
@@ -48,12 +53,12 @@ The learning curve was real. I spent the first three days constantly looking up 
 
 ## Tools and Knowledge: A Two-Way Street
 
-This all circles back to what's valuable in the AI landscape. Sure, AI models might all end up with similar knowledge, and you can find tutorials for just about anything or at this point create your own tutorials. But there's a beautiful spectrum between using tools and building them—and both sides matter. I'm a builder at heart—I build products. That means understanding how things work under the hood, not just how to use them. But I've also learned that using tools effectively is its own skill, one that often leads to deeper insights about how to build better ones.
+This all circles back to what's valuable in the AI landscape. Sure, AI models might all end up with similar knowledge, and you can find tutorials for just about anything—or at this point, create your own tutorials. But there's a beautiful spectrum between using tools and building them—and both sides matter. I'm a builder at heart—I build products. That means understanding how things work under the hood, not just how to use them. But I've also learned that using tools effectively is its own skill, one that often leads to deeper insights about how to build better ones.
 
 Think about it like learning music. Some people become amazing musicians without ever building instruments, while others craft instruments but barely play. The magic happens when you understand both sides—when your experience using tools informs how you build them, and your knowledge of building helps you use them more effectively.
 
 Right now, I'm diving into ML types through Coursera, and I find myself constantly thinking about potential projects—like that plant compatibility analyzer. Each step forward reveals new possibilities, new challenges, and new opportunities to grow. Whether you're using AI tools to solve problems or building new ones from scratch, there's value in both paths.
 
-I'll continue to think about how to learn, and what's useful on my path to AI competence. Starting with a foundation and building from it while relating practical knowledge to technical ideas mirrors the very learning patterns we see in ML - layering understanding upon understanding, making connections, finding patterns.
+I'll continue to think about how to learn and what's useful on my path to AI competence. Starting with a foundation and building from it while relating practical knowledge to technical ideas mirrors the very learning patterns we see in ML—layering understanding upon understanding, making connections, finding patterns.
 
 > You can just learn things! No one is stopping you—so why not start now?
