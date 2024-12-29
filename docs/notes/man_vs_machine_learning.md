@@ -2,7 +2,7 @@
 title: "Man vs Machine Learning"
 date: "2024-12-28"
 author: "Tirell Mckinnon"
-description: "Early reflections on machine learning from my own observations"
+description: "Early reflections on AI & machine learning from my own observations"
 tags:
   - machine-learning
   - software-development
@@ -49,7 +49,7 @@ This isn't just a theory—I've seen it in action. Recently, I looked at some ML
 
 **Reinforcement learning** ties this idea together for me. I saw it during a recent hackathon where I was building a favorites system in Elixir. I'm not an Elixir dev, but my experience in other languages gave me enough foundation to start. Sure, I hit every possible error (that's my superpower), but my understanding of programming concepts helped me debug and learn. I wasn't just copying solutions—I understood them because I had the right context. Context is key; it gives you a place to build from.
 
-The learning curve was real. I spent the first three days constantly looking up syntax, but by day four, I was mostly self-reliant. By the end, I had a working demo that was "hackathon production ready"—or, in real terms, two sprints away from being usable. 😅 This whole experience proved that a strong technical foundation lets you learn efficiently, even with AI tools. You still need that baseline understanding to ask the right questions and make sense of the answers.
+The learning curve was real. I spent the first three days constantly looking up syntax, but by day four, I was mostly self-reliant. By the end, I had a working demo that was "hackathon production ready"—or, in *estimation terms, two+ sprints away* from being usable. 😅 This whole experience proved that a strong technical foundation lets you learn efficiently, even with AI tools. You still need that baseline understanding to ask the right questions and make sense of the answers.
 
 ## Tools and Knowledge: A Two-Way Street
 
