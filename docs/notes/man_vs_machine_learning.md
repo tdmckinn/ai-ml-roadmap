@@ -1,5 +1,5 @@
 ---
-title: "Man vs Machine Learning"
+title: "Humans vs Machine Learning"
 date: "2024-12-28"
 author: "Tirell Mckinnon"
 description: "Early reflections on AI & machine learning from my own observations"
@@ -11,7 +11,7 @@ tags:
   - ai
 ---
 
-# Man vs Machine Learning
+# Humans vs Machine Learning
 
 What happens when humans and machines learn in parallel? As a software engineer diving into AI, I'm discovering surprising parallels between the two—and what they mean for the future.
 
