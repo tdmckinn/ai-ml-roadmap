@@ -1,0 +1,15 @@
+# projects/text_classification/environment.yml
+name: ml-learning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - scikit-learn
+  - numpy
+  - pandas
+  - jupyter
+  - pip
+  - pip:
+    # packages not available in conda can go here
+    - some-other-package
