@@ -1,4 +1,3 @@
-
 # AI/ML Learning Roadmap
 
 This repository documents my journey learning artificial intelligence and machine learning, following a structured curriculum that progresses from traditional AI through modern deep learning and generative AI systems.
@@ -165,3 +164,73 @@ This diagram illustrates the relationships between different branches of AI, fro
 
 TODO - Create live Miro version
 
+
+## Repository Organization
+
+Learning materials are organized to support progressive understanding:
+
+### Learning Path Structure
+
+The `notebooks` directory contains our core learning materials, organized by topic:
+- `algorithms`: Deep dives into fundamental ML algorithms
+- `deep_learning`: Neural networks and advanced architectures
+- `machine_learning_basics`: Foundation concepts in ML
+  - `supervised`: Understanding supervised learning approaches
+  - `unsupervised`: Exploring unsupervised techniques
+  - `reinforcement`: Introduction to reinforcement learning
+
+Each notebook focuses on clear examples and practical implementation.
+
+### Project Implementation
+
+The `projects` directory contains real-world applications that put our learning into practice:
+- `supervised`: Applications using supervised learning techniques
+  - `text_classification`: A complete text classification system
+- `unsupervised`: Projects exploring unsupervised approaches
+- `generative_ai`: Experiments with generative models
+
+Each project includes its own documentation and setup instructions.
+
+### Documentation Structure
+
+The `docs` directory contains detailed notes and reference materials:
+- `diagrams`: Visual explanations of concepts
+- `notes`: In-depth exploration of ML topics
+  - `supervised.md`: Complete guide to supervised learning
+  - `unsupervised.md`: Understanding unsupervised approaches
+  - `types.md`: Overview of ML categories
+  - `reinforcement.md`: Guide to reinforcement learning
+
+### Supporting Components
+- `data`: Dataset storage and processing
+- `frameworks`: Framework-specific implementations
+- `src`: Shared utilities and helper functions
+- `tests`: Testing infrastructure
+
+## Getting Started
+
+1. Begin with the documentation in `docs/notes` to build theoretical understanding
+2. Work through notebooks in sequence to gain hands-on experience
+3. Explore project implementations to see real-world applications
+4. Contribute to existing projects or start new ones
+
+## Core Reference Materials
+
+We maintain several key reference documents:
+- `algorithms.md`: Comprehensive catalog of ML algorithms
+- `tools.md`: Overview of our technology stack
+-  Reading the relevant documentation in `docs/notes`
+- Project-specific READMEs: Detailed setup and usage instructions
+
+
+## Future Development
+
+We continuously expand this repository with:
+- New algorithm implementations
+- Additional practical projects
+- Enhanced documentation
+- Integration of emerging tools and frameworks
+
+# Contributing
+
+TODO

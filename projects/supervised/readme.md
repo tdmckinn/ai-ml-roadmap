@@ -159,25 +159,41 @@ Different scenarios need different approaches:
 
 Let's start with projects that build practical skills:
 
-1. **First Project**: Predict plant growth rate
-   - Use simple measurements like water and light
-   - Learn proper data collection and preparation
-   - Build basic prediction model
+1. First Project: Garden Text Classification System
+The initial project teaches fundamental machine learning concepts through classifying gardening-related text content. We'll build a system that can understand and categorize various types of garden-related information. This teaches core ML concepts like data preprocessing, feature extraction, and model evaluation while working with something you're interested in.
+For example, the system could classify gardening text into categories like:
 
-2. **Second Project**: Plant health classification
-   - Identify healthy vs struggling plants
-   - Handle imbalanced data (usually more healthy than unhealthy examples)
-   - Learn about classification metrics
+- Plant care instructions
+- Disease identification descriptions
+- Growing condition requirements
+- Harvesting guidelines
 
-3. **Advanced Projects**:
-   - Predict optimal watering schedules
-   - Forecast maintenance needs
-   - Combine multiple prediction types
+This project introduces essential concepts like:
+
+- How to convert text into numerical data that machines can understand
+- Ways to handle variations in how people describe similar gardening concepts
+- Techniques for improving classification accuracy
+- Methods for evaluating how well the model performs
+
+
+2. Second Project: Plant Feature Classification
+
+- Create a model that identifies plant species based on measurements
+- Work with structured numerical data like height, leaf width, and other characteristics
+- Learn about feature importance and how different measurements influence predictions
+- Understand how to evaluate model accuracy and improve performance
+
+
+3. Advanced Projects:
+- Sentiment Analysis System: Analyze customer reviews to understand satisfaction levels
+- Multi-Label Plant Classification: Identify multiple characteristics of plants simultaneously
+- Hybrid Classification System: Combine text descriptions with numerical measurements for more accurate plant identification
+- Real-Time Classification: Build systems that can make predictions as new data arrives
 
 ## Next Steps
 
 Focus on building practical understanding:
-1. Start collecting your own plant data or using some pre-existing data
+1. Start collecting your own plant data
 2. Build simple models and validate their predictions
 3. Gradually add more complexity as you understand what works
 4. Document your learning process for team knowledge sharing
