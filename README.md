@@ -1,11 +1,8 @@
-# AI/ML Learning Roadmap
+# AI/ML Learning Repository
 
 This repository documents my journey learning artificial intelligence and machine learning, following a structured curriculum that progresses from traditional AI through modern deep learning and generative AI systems.
 
-# Overview
-
-![AI/ML Roadmap](docs/diagrams/AI-ML-ROADMAP.png)
-
+## Overview
 
 ```mermaid
 flowchart LR
@@ -162,75 +159,115 @@ flowchart LR
 
 This diagram illustrates the relationships between different branches of AI, from traditional approaches through modern deep learning and generative AI systems.
 
-TODO - Create live Miro version
+## Repository Structure
 
+```
+ai-ml-roadmap/
+├── data/                    # Dataset storage and processing utilities
+├── docs/                    # Documentation and learning materials
+│   ├── diagrams/             # Visual explanations of concepts
+│   └── notes/                # In-depth exploration of ML topics
+│       ├── supervised.md      # Complete guide to supervised learning
+│       ├── unsupervised.md    # Understanding unsupervised approaches
+│       ├── types.md           # Overview of ML categories
+│       └── reinforcement.md   # Guide to reinforcement learning
+├── blogs/                   # Blog posts and learning reflections
+│   └── humsman_vs_machine_learning.md # My first blog post on parallel between humans and machines learning
+├── frameworks/              # Implementations using specific AI/ML frameworks
+│   └── langchain/            # LangChain: Projects or experiments utilizing the LangChain framework 
+│                             # for building applications with large language models
+│   └── <future-framework>/   # Future implementations (TensorFlow, PyTorch, Scikit-learn)
+├── notebooks/               # Hands-on learning, depth of concepts, and implementation
+│   ├── algorithms/           # Algorithm implementations
+│   │   └── [supervised_readme.md](notebooks/algorithms/supervised_readme.md)  # Detailed overview of supervised learning
+│   ├── deep_learning/        # Neural network concepts and implementations
+│   ├── generative_ai/        # Generative AI experiments and models
+│   ├── machine_learning_basics/  # Foundation ML concepts
+│   │   ├── supervised/            # Understanding supervised learning approaches
+│   │   ├── unsupervised/          # Exploring unsupervised techniques
+│   │   └── reinforcement/         # Introduction to reinforcement learning
+│   ├── mlops/                # MLOps practices and infrastructure
+│   └── traditional_ai/       # Classical AI approaches (rule-based systems, search algorithms, knowledge representation)
+└── projects/                 # Real-world applications
+    ├── generative_ai/         # Generative AI projects and experiments
+    ├── supervised/            # Supervised learning projects
+    │   ├── plant_classification/  # Classify plant species using supervised learning
+    │   └── text_classification/   # A complete text classification system
+    │       ├── api_service/       # Backend API implementation
+    │       ├── frontend/          # User interface and visualization
+    │       └── ml_service/        # Core machine learning service
+    └── unsupervised/         # Unsupervised learning projects
 
-## Repository Organization
+```
 
-Learning materials are organized to support progressive understanding:
+## Core Learning Areas
 
-### Learning Path Structure
+### Traditional AI
+- Rule-Based Systems
+- Expert Systems
+- Symbolic AI
+- Search Algorithms
+- Knowledge Representation
 
-The `notebooks` directory contains our core learning materials, organized by topic:
-- `algorithms`: Deep dives into fundamental ML algorithms
-- `deep_learning`: Neural networks and advanced architectures
-- `machine_learning_basics`: Foundation concepts in ML
-  - `supervised`: Understanding supervised learning approaches
-  - `unsupervised`: Exploring unsupervised techniques
-  - `reinforcement`: Introduction to reinforcement learning
+### Machine Learning
+- **Supervised Learning** (using Scikit-learn): Classification, regression, decision trees
+- **Unsupervised Learning**: Clustering and dimensionality reduction
+- **Reinforcement Learning**: Policy optimization, Q-learning
+- **Model Evaluation**: Performance metrics, bias-variance tradeoff, hyperparameter tuning
 
-Each notebook focuses on clear examples and practical implementation.
+### Deep Learning
+- Neural Networks and Advanced Architectures
+- Activation Functions (ReLU, Sigmoid, Tanh)
+- Loss Functions (MSE, Cross-Entropy)
+- Optimization Algorithms (SGD, Adam, RMSprop)
 
-### Project Implementation
+### MLOps & Infrastructure
+- Docker/Kubernetes for containerization
+- Cloud Platforms (AWS SageMaker, GCP, Azure)
+- Model Serving (REST APIs, TF Serving, TorchServe)
+- Feature Stores (Feast)
+- Workflow Orchestration (Airflow, Kubeflow)
+- Model Versioning/Tracking (MLflow, DVC)
+- Monitoring & Observability
 
-The `projects` directory contains real-world applications that put our learning into practice:
-- `supervised`: Applications using supervised learning techniques
-  - `text_classification`: A complete text classification system
-- `unsupervised`: Projects exploring unsupervised approaches
-- `generative_ai`: Experiments with generative models
+## Key Projects
+- `projects/supervised/text_classification/`: Complete text classification system with API and frontend
+- `projects/supervised/plant_classification/`: Plant species classification using supervised learning
+- Additional projects in development
 
-Each project includes its own documentation and setup instructions.
+## Roadmap
 
-### Documentation Structure
+### Current Focus
+- Implementing core supervised learning algorithms
+- Building out the plant classification system
+- Developing the text classification service
+- MLOps infrastructure setup
 
-The `docs` directory contains detailed notes and reference materials:
-- `diagrams`: Visual explanations of concepts
-- `notes`: In-depth exploration of ML topics
-  - `supervised.md`: Complete guide to supervised learning
-  - `unsupervised.md`: Understanding unsupervised approaches
-  - `types.md`: Overview of ML categories
-  - `reinforcement.md`: Guide to reinforcement learning
-
-### Supporting Components
-- `data`: Dataset storage and processing
-- `frameworks`: Framework-specific implementations
-- `src`: Shared utilities and helper functions
-- `tests`: Testing infrastructure
+### Next Steps
+- Expand deep learning implementations
+- Add generative AI experiments
+- Enhance MLOps practices
+- Develop leadership and mentorship skills
 
 ## Getting Started
 
-1. Begin with the documentation in `docs/notes` to build theoretical understanding
-2. Work through notebooks in sequence to gain hands-on experience
-3. Explore project implementations to see real-world applications
-4. Contribute to existing projects or start new ones
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ai-ml-roadmap.git
+   cd ai-ml-roadmap
+   ```
 
-## Core Reference Materials
+2. Review the learning materials:
+   - Start with [`notebooks/algorithms/supervised_readme.md`](notebooks/algorithms/supervised_readme.md) for fundamentals
+   - Explore `projects` for practical implementations
+   - Check `docs` for detailed explanations and diagrams
 
-We maintain several key reference documents:
-- `algorithms.md`: Comprehensive catalog of ML algorithms
-- `tools.md`: Overview of our technology stack
--  Reading the relevant documentation in `docs/notes`
-- Project-specific READMEs: Detailed setup and usage instructions
+3. Follow project-specific setup instructions in their respective directories
 
+## Contributing
 
-## Future Development
+This is a personal learning repository but suggestions and discussions are welcome through issues and discussions.
 
-We continuously expand this repository with:
-- New algorithm implementations
-- Additional practical projects
-- Enhanced documentation
-- Integration of emerging tools and frameworks
+## License
 
-# Contributing
-
-TODO
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
