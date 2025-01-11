@@ -9,7 +9,10 @@ dependencies:
   - numpy
   - pandas
   - jupyter
+  - pyarrow
+  - pillow
+  - opencv
+  - datasets
+  - beautifulsoup4
+  - requests
   - pip
-  - pip:
-    # packages not available in conda can go here
-    - some-other-package
